@@ -1,0 +1,83 @@
+*, *::after, *::before {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#mainmenu {
+background: #444;
+position: relative;
+overflow:hidden;
+height:89px;
+margin:30px 0
+}
+#mainmenu ul {
+list-style:none;
+margin:0;
+padding:0;
+position: relative;
+left:50%;
+float:left;
+font:14px Arial, Helvetica, sans-serif;
+height:89px
+}
+#mainmenu ul li {
+position:relative;
+left:-50%;
+float:left;
+margin:0 10px;
+height:40px
+}
+#mainmenu ul li a {
+color: #fff;
+display:block;
+text-decoration:none;
+padding:23px 8px 26px 8px;
+line-height: 40px;
+}
+#mainmenu ul li a:hover {
+background-color:#ff3f40;
+}
+
+body{
+  background-color: #f6f2f2;
+}
+
+div.сaption-video{
+  padding-top: 78px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #000;
+  text-align: center;
+}
+
+div.subtitle{
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 10px;
+  color: #6f6d6d;
+  text-align: center;
+}
+
+div.video{
+  padding-top: 58px;
+  text-align: center;
+}
+
+div.btn-video{
+  padding-top: 55px;
+}
+
+a.knopka {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(255,45,45); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+}
+a.knopka:hover { background: rgb(241,26,8); } /* при наведении курсора мышки */
+a.knopka:active { background: rgb(210,0,0); } /* при нажатии */
