@@ -222,9 +222,10 @@ div.center-bottom{
           font-size: 9px;
           text-transform: uppercase;
           font-weight: bold;
-          margin-right: 15px;
+          margin-right: 3px;
           color: #fff;
         }
+
 
         div.col-xs-3 {
 
@@ -236,6 +237,10 @@ div.center-bottom{
         }
         div.view{
           text-align: center !important;
+        }
+        a.home-button {
+        padding: 10px 10px;
+        background-color: #1bbc9b;
         }
 
         div.view-first{
